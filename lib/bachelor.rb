@@ -3,7 +3,7 @@ def get_first_name_of_season_winner(data, season_wanted)
     if season_wanted == season
       season_wanted.each do |contestants|        
         if contestants[:status] == "Winner"
-          return contestant_hash[:name].split(' ').first
+         contestant_hash[:name].split(' ').first
         end
     end
   end
