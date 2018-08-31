@@ -1,7 +1,7 @@
-def get_first_name_of_season_winner (data)
+def get_first_name_of_season_winner (data, season)
   data.each do |season, contestants_hash|
-    if season == season_wanted
-      season_wanted.each do |contestants|        
+    if season == season
+      season.each do |contestants|        
         if contestants["status"] == "winner"
          contestants["name"].split(' ').first
         end
