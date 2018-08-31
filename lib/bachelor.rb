@@ -1,4 +1,4 @@
-def get_first_name_of_season_winner(data, season_wanted)
+def get_first_name_of_season_winner (data)
   data.each do |season, contestants_hash|
     if season == season_wanted
       season_wanted.each do |contestants|        
