@@ -6,6 +6,8 @@ def get_first_name_of_season_winner(data, season_wanted)
           return contestant_hash[:name].split(' ').first
         end
     end
+  end
+end
 #   end
 # end
 # end
